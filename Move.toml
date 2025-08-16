@@ -1,0 +1,15 @@
+[package]
+name = "citation-Integrity-Anchor"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule='0x031f01a0b72be98b1bba19b36043f7ff0c3905f4d1a61a8507a93908059d9aa5'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
